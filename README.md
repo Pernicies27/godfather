@@ -21,4 +21,4 @@ $ python3 godfather
 `
 
 ## Running the tests
-Run `$ pytest tests`.
+Run `$ pytest tests` .
