@@ -5,7 +5,10 @@ Mafia moderator bot for Telegram
 Clone this repository.
 
 It's strongly recommended to create a virtual environment for this project.
-You can do so by running `$ virtualenv .` in the project root folder.
+If you are using virtualenvwrapper, create a new environment using `$ mkvirtualenv godfather`.
+Otherwise, run `$ virtualenv .virtualenv` in the project root folder and add `.virtualenv/` to your `.git/info/exclude`.
+
+You can activate your new environment with `$ workon godfather` (virtualenvwrapper) or `$ source .virtualenv/bin/activate` (if you don't use virtualenvwrapper).
 
 After that, do the following to install the necessary dependencies:
 
