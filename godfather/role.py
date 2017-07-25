@@ -1,4 +1,4 @@
-""" This module contains the class Role which is used to save 
+"""This module contains the class Role which is used to save
     all game related information about a player
 """
 

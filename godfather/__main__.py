@@ -1,5 +1,5 @@
 def main():
-    print("Godfather has been started")
+    print('Godfather has been started')
 
 
 main()
