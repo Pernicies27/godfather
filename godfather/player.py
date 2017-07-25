@@ -19,7 +19,7 @@ class Player:
         user (telegram.user.User): Specific information about the actual user
         role (role.Role): All game related information is saved here
     """
-    def __init__(self, telegram_user):
+    def __init__(self, telegram_user, role = None):
         #  telegram.user.User Objects contain the following arguments:
 
         # id              -- unique ID that is required to send text messages
@@ -30,16 +30,4 @@ class Player:
         # name            -- equals username if available (with @ sign),  
         #                    otherwise first name + last name
         self.user = telegram_user
-        self.role = None
-
-
-    def assign_role(self, role):
-        """ Sets the role of the player to a given role.
-        
-        This is triggered in the pre-game phase for every single player and might be used by certain
-        abilities within games.
-
-        Args:
-            role (role.Role): The new role the player should have
-        """ 
         self.role = role

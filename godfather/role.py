@@ -17,27 +17,3 @@ class Role:
         self.role_name = role_name
         self.win_con = win_con
         self.abilities = abilities
-
-
-    def set_faction_name(self, faction_name):
-        """Set the faction_name of a role"""
-        self.faction_name = faction_name
-
-
-    def set_role_name(self, role_name):
-        """Set the role_name of a role"""
-        self.role_name = role_name
-
-
-    def set_win_con(self, win_con):
-        """Set the victory condition of a role.
-
-        To be implemented
-        """
-        pass
-
-
-    def add_ability(self, ability):
-        """ Adds an ability to a role"""
-        self.abilities.append(ability)
-    
